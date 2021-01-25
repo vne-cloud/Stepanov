@@ -1,0 +1,17 @@
+{
+  "name": "vne-cloud/stepanov",
+  "type": "library",
+  "authors": [
+    {
+      "name": "stepanov",
+      "email": "pikachu1919@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "stepanov\\": ""
+    }
+  }
+}
