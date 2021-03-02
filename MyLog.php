@@ -10,7 +10,7 @@ Class MyLog extends LogAbstract implements LogInterface {
     public function _log(String $str){
         $this->log[]=$str;
     }
-    public static function log(String $str){
+    public static function log(String $str):void{
         self::Instance()->_log($str);
 	}
     
@@ -37,7 +37,7 @@ Class MyLog extends LogAbstract implements LogInterface {
 
     }
     
-    public static function write(){
+    public static function write():void{
         self::Instance()->_write();
     }
 
